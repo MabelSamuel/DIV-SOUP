@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shell-1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(28, 27, 27);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.loginBar{
+    background-color: rgb(113, 120, 126);
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;  
+}
+
+.btn{
+    background-color: violet;
+    padding: 15px;
+    border-radius: 4px;
+    width: 20%;
+}
+
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
